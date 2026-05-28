@@ -3,7 +3,8 @@
 **Asignatura:** Análisis de Datos Masivos  
 **Semestre:** 10mo Semestre  
 **Institución:** Universidad de Guayaquil  
-**Estudiantes:** * Cadena Vallejo Daniel
+**Estudiantes:** 
+* Cadena Vallejo Daniel
 * Casco Orozco Bryan
 * Chiriguaya Soriano Kevin
 * Herrera Diaz Brando
