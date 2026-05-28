@@ -1,0 +1,13 @@
+# Ignorar bases de datos pesadas
+data/bronze/
+data/silver/
+data/gold/
+data/raw/*.csv
+
+# Ignorar checkpoints de Jupyter Notebooks
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Ignorar archivos del sistema
+.DS_Store
+Thumbs.db

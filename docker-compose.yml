@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  jupyter-env:
+    image: jupyter/datascience-notebook:python-3.11
+    container_name: nbp_jupyter_container
+    ports:
+      - "8888:8888"
+    volumes:
+      - .:/home/jovyan/work
+    environment:
+      - JUPYTER_ENABLE_LAB=yes
+      - JUPYTER_TOKEN=proyecto_nbp_2026
+    command: start-notebook.sh --NotebookApp.notebook_dir='/home/jovyan/work'
